@@ -1,14 +1,14 @@
 # 🚜 Bulldozer Price Estimator using Machine Learning
 
-This project builds a machine learning model to predict the selling price of used cars based on various features like brand, age, kilometers driven, fuel type, and more. The goal is to assist buyers and sellers in making informed decisions.
+This project builds a machine learning model to predict the selling price of used bulldozers based on various features like brand, age, kilometers driven, fuel type, and more. The goal is to assist buyers and sellers in making informed decisions.
 
 ---
 
 ## 📌 Project Overview
 
-* **Objective**: Predict the price of a car based on input features.
-* **Dataset**: A cleaned and preprocessed dataset of used cars.
-* **Outcome**: A regression model capable of estimating car prices with reasonable accuracy.
+* **Objective**: Predict the price of a bulldozer based on input features.
+* **Dataset**: A cleaned and preprocessed dataset of used bulldozers.
+* **Outcome**: A regression model capable of estimating bulldozer prices with reasonable accuracy.
 
 ---
 
@@ -16,7 +16,7 @@ This project builds a machine learning model to predict the selling price of use
 
 Key input features include:
 
-* `name` – Car model name
+* `name` – bulldozer model name
 * `year` – Year of purchase
 * `km_driven` – Kilometers driven
 * `fuel` – Type of fuel (Petrol/Diesel/etc.)
@@ -28,7 +28,7 @@ Key input features include:
 
 Target variable:
 
-* `selling_price` – Car's selling price in lakhs
+* `selling_price` – bulldozer's selling price in lakhs
 
 ---
 
@@ -66,9 +66,9 @@ Target variable:
 ## 📁 File Structure
 
 ```
-├── car-price-prediction.ipynb   # Main notebook
+├── bulldozer-price-prediction.ipynb   # Main notebook
 ├── data/
-│   └── cars.csv                 # Raw or cleaned car dataset
+│   └── bulldozers.csv                 # Raw or cleaned bulldozer dataset
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
 ```
@@ -80,8 +80,8 @@ Target variable:
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/ridamansour/car-price-prediction.git
-cd car-price-prediction
+git clone https://github.com/ridamansour/bulldozer-price-prediction.git
+cd bulldozer-price-prediction
 pip install -r requirements.txt
 ```
 
@@ -90,10 +90,10 @@ pip install -r requirements.txt
 ## 🚀 Running the Project
 
 ```bash
-jupyter notebook car-price-prediction.ipynb
+jupyter notebook bulldozer-price-prediction.ipynb
 ```
 
-Make sure the dataset file (typically `cars.csv`) is located in the correct folder (`/data`) or as referenced in the notebook.
+Make sure the dataset file (typically `bulldozers.csv`) is located in the correct folder (`/data`) or as referenced in the notebook.
 
 ---
 
@@ -101,7 +101,7 @@ Make sure the dataset file (typically `cars.csv`) is located in the correct fold
 
 * Final model: **Random Forest Regressor**
 * Achieved R² score: \~0.86+ (depending on parameters)
-* Predicts used car prices with decent real-world accuracy
+* Predicts used bulldozer prices with decent real-world accuracy
 
 ---
 
